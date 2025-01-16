@@ -1,0 +1,216 @@
+body {
+  background: linear-gradient(135deg, #958b88, #da7c6c);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* background: linear-gradient(135deg, #958b88, #da7c6c); */
+  /* color: #ffffff; */
+  font-family: "Arial", sans-serif;
+}
+
+.home-container h1 {
+  font-size: 3rem;
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+  background-color: #f7f9fb;
+  padding: 40px;
+  border: 6px solid #497cd0;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.register-form h2 {
+  font-size: 2em;
+  color: #4a90e2;
+  margin-bottom: 20px;
+}
+
+.register-form input,
+.register-form select,
+.register-form button {
+  width: 100%;
+  max-width: 400px;
+  padding: 22px;
+  margin: 20px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+  background-color: #fff;
+  transition: border 0.3s ease;
+}
+
+.register-form input:focus,
+.register-form select:focus,
+.register-form button:focus {
+  border-color: #4a90e2;
+  outline: none;
+}
+
+.register-form input,
+.register-form select {
+  background-color: #f9fafb;
+}
+
+.register-form button {
+  background-color: #4a90e2;
+  color: white;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.register-form button:hover {
+  background-color: #357ab7;
+}
+
+.register-form select {
+  color: #4a90e2;
+}
+
+.register-form input::placeholder,
+.register-form select option {
+  color: #aaa;
+}
+
+.stylish-line {
+  border: none;
+  height: 4px;
+  background-color: #3498db;
+  margin: 20px 0;
+  width: 80%;
+}
+
+.product-list {
+  margin: 80px;
+  font-family: Arial, sans-serif;
+}
+
+.product-list h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 88px;
+}
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 16px;
+  text-align: left;
+}
+
+.user-table th,
+.user-table td {
+  font-size: 28px;
+
+  padding: 32px;
+  border: 1px solid #ddd;
+}
+
+.user-table th {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.user-table tr:nth-child(even) {
+  background-color: #5b90a8;
+}
+
+.user-table tr:hover {
+  background-color: #985050;
+}
+
+.user-table td {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.appointment-form {
+  background-color: #fff;
+  padding: 91px;
+  margin: 10px 55px;
+  width: 300px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.appointment-form h2 {
+  text-align: center;
+  color: #333;
+}
+
+.appointment-form input,
+.appointment-form button {
+  width: 90%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.appointment-form input[type="date"],
+.appointment-form input[type="time"] {
+  padding-left: 15px;
+}
+
+.appointment-form button {
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.appointment-form button:hover {
+  background-color: #555;
+}
+
+/* Table styling */
+.table-container {
+  margin: 40px auto;
+  width: 80%;
+  border-collapse: collapse;
+}
+
+table {
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  padding: 70px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
